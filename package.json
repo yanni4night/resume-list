@@ -1,10 +1,10 @@
 {
   "name": "resume-list",
   "version": "1.0.0",
-  "description": "collect resume",
+  "description": "Convert multiple resumes to an excel list",
+  "repository": "git@github.com:yanni4night/resume-list.git",
   "main": "index.js",
   "scripts": {
-    "test": "grunt test"
   },
   "keywords": [
     "resume"
