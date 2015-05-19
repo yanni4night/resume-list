@@ -19,6 +19,9 @@ var collect =  function () {
         },
         function (cb) {
             require('./lib/list')(cb);
+        },
+        function (cb) {
+            require('./lib/gen')(cb);
         }
     ], function () {});
 
