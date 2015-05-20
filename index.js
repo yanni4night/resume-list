@@ -14,9 +14,9 @@ var async = require('async');
 var collect =  function () {
 
     async.series([
-        function (cb) {
+        /*function (cb) {
             require('./lib/convert')(cb);
-        },
+        },*/
         function (cb) {
             require('./lib/list')(cb);
         },

@@ -4,8 +4,7 @@
   "description": "Convert multiple resumes to an excel list",
   "repository": "git@github.com:yanni4night/resume-list.git",
   "main": "index.js",
-  "scripts": {
-  },
+  "scripts": {},
   "keywords": [
     "resume"
   ],
@@ -14,6 +13,7 @@
   "dependencies": {
     "async": "^0.9.0",
     "grunt": "^0.4.5",
+    "iconv-lite": "^0.4.8",
     "jsdom": "^3.1.2",
     "mammoth": "^0.3.19",
     "officegen": "^0.2.9",
